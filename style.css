@@ -1,0 +1,118 @@
+/* *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+body{
+    background-color: rgb(208, 224, 229);
+    display: flex;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    /* padding-left: 20px; */
+    background-color: #3b5998;
+    color: white;
+    position: fixed;
+    width: 100%;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    /* z-index: 99; */
+}
+.psd{
+    /* margin-left: 700px; */
+    position: relative;
+}
+.psd p, input{
+    margin: 1.5px;
+}
+.psd p{
+    font-size: small;
+    text-decoration: none;
+}
+.psd a{
+    text-decoration: none;
+    color: white;
+}
+.eml{
+    margin-left: 700px;
+    
+    margin-top: -6px;
+}
+.eml p, input{
+    margin: 2px;
+    /* margin-top: -4px;
+    margin-right: 2px;
+    margin-left: 2px;*/
+    /* padding-bottom: 10px; */
+    /* margin-bottom: px;  */
+}
+.eml {
+    padding-bottom: 11px;
+}
+.btn{
+    
+    background-color: #3b5998;
+    border: 0.3px solid black;
+    
+}
+.btn a{
+    color: white;
+    justify-content: right;
+    text-decoration: none;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+}
+.leftSide{
+    margin-left: 40px;
+}
+.leftSide p{
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-left: 0px;
+}
+.rightSide{
+    margin-left: 300px;
+    float: right;
+    display: inline;
+}
+.rr{
+    width: 500px;
+    display: flex;
+    font-size: 20px;
+}
+
+.dob{
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* width: 30px;
+    height: 10px; */
+}
+.dob input{
+    margin-top: -10px;
+    width: 100px;
+    height: 20px;
+}
+.dob p{
+    margin-top: -10px;
+}
+
+.btn1{
+    border: 1px solid transparent;
+    font-size: x-large;
+    background-color:  rgb(33, 146, 41);
+    border-radius: 5px;
+}
+
+.btn1 a{
+    color: white;
+    text-decoration: none;
+}
